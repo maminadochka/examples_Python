@@ -1,1 +1,1 @@
-возьмите на работу, пожалуйста 
+This is my practice in Python
