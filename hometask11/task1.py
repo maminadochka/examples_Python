@@ -4,10 +4,10 @@ n = int(input("Enter n: "))
 
 
 def generator(x):
-    yield q**x
+    for y in range(x):
+        yield b1*q**y
 
 
-for i in range(n):
-    n_i = next(generator(i))
-    b = b1 * n_i
-    print(b)
+res_gen = generator(n)
+for i in res_gen:
+    print(i)
